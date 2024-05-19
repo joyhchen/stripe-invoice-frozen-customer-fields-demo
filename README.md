@@ -4,9 +4,9 @@ Invoice finalization makes certain properties on the invoice immutable (https://
 
 In practice, this means if you...
 
-1. Make an invoice with customer_address = foo@test.com
+1. Make an invoice with a customer whose email is foo@test.com
 2. Finalize the invoice
-3. Change the customer address to bar@test.com
+3. Change the customer email to bar@test.com
 
 The customer's email on the finalized invoice will still be foo@test.com.
 
