@@ -8,6 +8,6 @@ In practice, this means if you...
 2. Finalize the invoice
 3. Change the customer email to bar@test.com
 
-The customer's email on the finalized invoice will still be foo@test.com.
+The customer's email on the finalized invoice is still foo@test.com.
 
 This notebook demonstrates that changing customer details after invoice finalization doesn't impact the invoice.
